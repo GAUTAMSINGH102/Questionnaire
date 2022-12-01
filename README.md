@@ -2,11 +2,11 @@
 Get Question. Get Clarification. Get Keywords. Get Everything you need. 🤔🤔
 
 ## Screenshots
-## **Generate Question From Text**
-### **Text**
+### **Generate Question From Text**
+#### **Text**
 ![Upload Video Lecture, PDFs and Images](https://github.com/GAUTAMSINGH102/Questionnaire/blob/main/Images/Text.png)
 
-### **Question**
+#### **Question**
 ![Transcribe Text](https://github.com/GAUTAMSINGH102/Questionnaire/blob/main/Images/Questions.png)
 
 ### **Get Clarification on any Topic**
