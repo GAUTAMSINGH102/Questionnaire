@@ -32,7 +32,7 @@ def generate_question(inp_query):
 
 
 
-API_KEY = 'j9fltyvpID3YyH82yoUqSCjhcydpMh1vG3lLS83z'
+API_KEY = ''
 co = cohere.Client(API_KEY)
 
 st.header('Questionaire')
