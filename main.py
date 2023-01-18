@@ -3,6 +3,8 @@ import numpy as np
 import streamlit as st
 import cohere
 import textwrap
+# import streamlit.cli
+
 
 def generate_question(inp_query):
     base_question_prompt = textwrap.dedent("""
@@ -32,7 +34,7 @@ def generate_question(inp_query):
 
 
 
-API_KEY = ''
+API_KEY = 'j9fltyvpID3YyH82yoUqSCjhcydpMh1vG3lLS83z'
 co = cohere.Client(API_KEY)
 
 st.header('Questionaire')
@@ -119,3 +121,6 @@ with st.sidebar:
             stop_sequences=["--"],
             return_likelihoods='NONE')
         st.write(response.generations[0].text)
+
+# if __name__ == "__main__":
+#     streamlit.cli.main(["run", "main.py", "--server.address", "0.0.0.0", "--server.port", "8090"])
